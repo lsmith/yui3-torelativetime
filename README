@@ -1,0 +1,5 @@
+Module 'relativetime'.
+
+Adds the method Y.toRelativeTime(Date,from) to the YUI instance.
+
+Accepts a Date instance and returns a string indicating the time delta relative to the current moment. For example, "2 days ago".  If the second parameter is provided (another Date instance), the time delta uses this as a reference in place of the current moment.
