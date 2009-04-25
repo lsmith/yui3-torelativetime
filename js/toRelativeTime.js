@@ -1,3 +1,4 @@
+//TODO: extract strings for i18n
 YUI.add('relativetime', function (Y) {
     Y.toRelativeTime = function (d,from) {
         d = d || new Date();
